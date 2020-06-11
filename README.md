@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## Open source
 
-You can use the [editor on GitHub](https://github.com/Lycsted/Lycsted.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Lycsted/Lycsted.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Linux creator Linus Torvalds reports that the name “Linus” was chosen for him because of his parents’ admiration for Nobel laureate Linus Pauling.  Pauling was the rarest of men: a scientist who won the Nobel Prize not once, but twice. We find a cautionary tale for the Open Source community in the story of Pauling’s foundational work that made possible the discovery of the structure of DNA. The actual discovery was made Francis Crick and James Watson, and is famously chronicled in Watson’s book The Double Helix. Watson’s book is a remarkably frank account of the way science is actually done. He recounts not just the brilliance and insight, but the politics, the competition, and the luck. The quest for the secret of DNA became a fierce competition between, among others, Watson and Crick’s lab in Cambridge, and Pauling’s lab at Cal Tech. 
+ 
+Watson describes with obvious unease the way in which Pauling came to know that Watson and Crick had solved the mystery, and created a model of DNA’s helical structure. The story here centers on Max Delbruk, a mutual friend who traveled between Cambridge and Cal Tech. While sympathetic to Watson and Crick’s desire to keep the discovery secret until all results could be confirmed, Delbruk’s allegiance ultimately was to science itself. In this passage, Watson describes how he learned that Pauling had heard the news: 
+ 
+“Linus Pauling first heard about the double helix from Max Delbruk. At the bottom of the letter that broke the news of the complementary chains, I had asked that he not tell Linus. I was still slightly afraid something would go wrong and did not want Pauling to think about hydrogen-bonded base pairs until we had a few more days to digest our position. My request, however, was ignored. Delbruk wanted to tell everyone in his lab and knew that within hours the gossip would travel from his lab in biology to their friends working under Linus. Also, Pauling made him promise to let him know the minute he heard from me. Then there was the even more important consideration that Delbruk hated any form of secrecy in scientific matters and did not want to keep Pauling in suspense any longer.” 
+ 
+Clearly the need for secrecy made Watson uncomfortable. One of the poignant themes that runs throughout the book is Watson’s acknowledgment that competition kept parties from disclosing all they knew, and that the progress of science may have been delayed, if ever so slightly, by that secrecy. 
+ 
+Science, after all, is ultimately an Open Source enterprise. The scientific method rests on a process of discovery, and a process of justification. For scientific results to be justified, they must be replicable. Replication is not possible unless the source is shared: the hypothesis, the test conditions, and the results. The process of discovery can follow many paths, and at times scientific discoveries do occur in isolation. But ultimately the process of discovery must be served by sharing information, enabling other scientists to go forward where one cannot; pollinating the ideas of others so that something new may grow that otherwise would not have been born. 
+ 
+In 1984, Richard Stallman, a researcher at the MIT AI Lab, started the GNU project. The GNU project’s goal was, simply put, to make it so that no one would ever have to pay for software. Stallman launched the GNU project because essentially he feels that the knowledge that constitutes a running program—what the computer industry calls the source code—should be free. If it were not, Stallman reasons, a very few, very powerful people would dominate computing. 
+ 
+Where proprietary commercial software vendors saw an industry guarding trade secrets that must be tightly protected, Stallman saw scientific knowledge must be shared and distributed. The basic tenet of the GNU project and the Free Software Foundation (the umbrella organization for the GNU project) is that source code is fundamental to the furthering of computer science and freely available source code is truly necessary for innovation to continue. 
+ 
+Stallman worried how the world would react to free software. Scientific knowledge is often in the public domain; it is one function of academic publishing to put it there. With software, however, it was clear that just letting the source code go into the public domain would tempt businesses to co-opt the code for their own profitability. Stallman’s answer to this threat was the GNU General Public License, known as the GPL. 
+ 
+The GPL basically says that you may copy and distribute the software licensed under the GPL at will, provided you do not inhibit others from doing the same, either by charging them for the software itself or by restricting them through further licensing. The GPL also requires works derived from work licensed under the GPL to be licensed under the GPL as well. 
+When Stallman and others in this book talk about free software, they are really talking about free speech. English handles the distinction here poorly, but it is the distinction between gratis and liberty, as in “Free as in speech, not as in beer.” This radical message (the freedom part, not the beer part) led many software companies to reject free software outright. After all, they are in the business of making money, not adding to our body of knowledge. For Stallman, this rift between the computer industry and computer science was acceptable, maybe even desirable. 
+ 
+In the spring of 1997, a group of moderators in the free software community assembled in California. This group included Eric Raymond, Tim O’Reilly, and VA Research president Larry Augustin, among others. Their concern was to find a way to promote the ideas surrounding free software to people who had formerly shunned the concept. They were concerned that the Free Software Foundation’s anti-business message was keeping the world at large from really appreciating the power of free software. 
+ 
+At Eric Raymond’s insistence, the group agreed that what they lacked in large part was a marketing campaign, a campaign devised to win mind share, and not just market share. Out of this discussion came a new term to describe the software they were promoting: Open Source. A series of guidelines were crafted to describe software that qualified as Open Source. 
+ 
+Bruce Perens had laid much of the groundwork for the Open Source Definition. One of the GNU project’s stated goals was to create a freely available operating system that could serve as the platform for running GNU software. In a classic case of software bootstrapping, Linux had become that platform, and Linux had been created with the help of GNU tools. Perens had headed the Debian project, which managed a distribution of Linux that included within the distribution only software that adhered to the spirit of GNU. Perens had laid this out explicitly in a document called the “Debian Social Contract.” The Open Source definition is a direct descendant of the “Debian Social Contract,” and thus Open Source is very much in the spirit of GNU. The Open Source Definition allows greater liberties with licensing than the GPL does. In particular, the Open Source Definition allows greater promiscuity when mixing proprietary and open-source software. 
+ 
+Consequently, an Open Source license could conceivably allow the use and redistribution of open-source software without compensation or even credit. As an example you can take great swaths of the Netscape browser source code and distribute it with another, possibly proprietary, program without even notifying Netscape. Why would Netscape wish this? For a number of reasons, but the most compelling is that it gets greater market share for their client code, which works very well with their commercial offerings. In this way, giving away source code is a very good way to build a platform. This is also one of the reasons why the people at Netscape did not use the GPL. 
+ 
+This is not a small issue in the community. Late in 1998, there was an important dispute that threatened to fracture the Linux community. This fracture was caused by the advent of two software systems, GNOME and KDE, each of which aims to build an object-oriented desktop interface. On the one hand, KDE utilized Troll Technology’s Qt library, a piece of code that was proprietary, but quite stable and mature. On the other hand, the GNOME people decided to use the GTK+ library, which was a completely free library, though not as mature as Qt. 
+ 
+In the past, Troll Technology would have had to choose between using the GPL or maintaining their proprietary stance. The rift between GNOME and KDE would have continued. With the advent of Open Source, however, 	 The rift between two important parts of the Linux community appears to be closing. 
+ 
